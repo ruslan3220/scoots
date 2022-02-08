@@ -1,0 +1,146 @@
+.footer{
+
+    &__container{
+        width: 100%;
+        max-width: 1440px;
+        background-color: #495567;
+        position: relative;
+
+    }
+    &__square{
+         position: absolute;
+        top: 44.5%;
+        left: 35%;
+
+    }
+
+
+    &__top{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 102px 150px;
+
+    }
+
+    &__heading{
+        margin: 0;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 1.5;
+        letter-spacing: 1.5;
+        color: #FFFFFF;
+        width: 400px;
+    }
+
+
+    &__link-wrapper{
+        display: flex;
+        align-items:center;
+
+    }
+    &__top-link{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 12px 20px;
+        border:  transparent;
+
+    }
+    &__top-link:hover{
+        transform: scale(1.05);
+        transition: .3s ease;
+    }
+    &__top-link+&__top-link{
+        margin-left: 10px;
+    }
+    &__desc-in{
+        margin: 0;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+        color: #495567;
+        margin-left: 10px;
+
+    }
+    &__head-in{
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+        color: #495567;
+        margin-left: 10px;
+    }
+
+    .footer-last__container{
+        width: 100%;
+        max-width: 1146px;
+        background-color: #333A44;
+        padding: 36px 165px;
+        margin-left: -18px;
+
+        .footer__logo:hover{
+            transform: scale(1.15);
+            transition: .3s ease;
+        }
+
+
+
+        .footer__last{
+            display: flex;
+            align-items: center;
+
+
+        }
+        .footer__list{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-left: 58px;
+            margin-right: 640px;
+
+        }
+        .footer__last-list{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .footer__item+.footer__item{
+            margin-left: 32px;
+        }
+        .footer__item-link{
+            text-decoration: none;
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+        }
+        .footer__item-link:hover{
+            opacity: 0.8;
+            color: red;
+
+
+        }
+        .footer__item-link:active{
+            color: green;
+        }
+
+        .footer__last__item+.footer__last__item{
+            margin-left: 24px;
+        }
+    }
+    }
+    // RESPONSIVE

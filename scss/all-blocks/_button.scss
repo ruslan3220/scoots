@@ -1,0 +1,34 @@
+.main__btn {
+  padding: 14px 39px;
+  background-color: #fcb72b;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  min-width: 180px;
+  height: 53px;
+
+  &:hover {
+    color: #fcb72b;
+    background-color: #fff;
+    border: 2px solid #fcb72b;
+  }
+  &:active {
+    color: aqua;
+    background-color: #fff;
+    border: 2px solid aqua;
+  }
+}
+
+.header__btn {
+  margin-left: 55%;
+}
+// RESPONSIVE
+
+@media only screen and (max-width: 375px) {
+  .main__btn {
+    display: none;
+  }
+}
